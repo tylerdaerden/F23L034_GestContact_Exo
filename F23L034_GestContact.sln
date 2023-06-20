@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F23L034_GestContact", "F23L034_GestContact\F23L034_GestContact.csproj", "{18B44930-02C9-40F0-9893-8B9FE9C55C3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Database", "00 Database", "{D4C77840-0BAF-4522-AB18-0AC748E222BC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "F23L034_GestContact.Database", "F23L034_GestContact.Database\F23L034_GestContact.Database.sqlproj", "{41A7641A-D09F-4713-A331-ED8C28D37364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Models", "01 Models", "{FF93B642-A9B3-4DFD-A6D7-90FB955F9E2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Web App", "02 Web App", "{258A4316-795D-4BB6-9FB9-DF44ACDF9CD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 Tools", "99 Tools", "{4E02574F-87E2-43A8-AA43-1D3820C7B9AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Database", "Tools.Database\Tools.Database.csproj", "{67F8350F-AC93-4162-A130-991AD27E5958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F23L034_GestContact.Models", "F23L034_GestContact.Models\F23L034_GestContact.Models.csproj", "{C0E527B2-4E65-4203-9ED7-5404FC907C75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B44930-02C9-40F0-9893-8B9FE9C55C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B44930-02C9-40F0-9893-8B9FE9C55C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B44930-02C9-40F0-9893-8B9FE9C55C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B44930-02C9-40F0-9893-8B9FE9C55C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A7641A-D09F-4713-A331-ED8C28D37364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A7641A-D09F-4713-A331-ED8C28D37364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A7641A-D09F-4713-A331-ED8C28D37364}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{41A7641A-D09F-4713-A331-ED8C28D37364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A7641A-D09F-4713-A331-ED8C28D37364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A7641A-D09F-4713-A331-ED8C28D37364}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{67F8350F-AC93-4162-A130-991AD27E5958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F8350F-AC93-4162-A130-991AD27E5958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F8350F-AC93-4162-A130-991AD27E5958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F8350F-AC93-4162-A130-991AD27E5958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E527B2-4E65-4203-9ED7-5404FC907C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E527B2-4E65-4203-9ED7-5404FC907C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E527B2-4E65-4203-9ED7-5404FC907C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E527B2-4E65-4203-9ED7-5404FC907C75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18B44930-02C9-40F0-9893-8B9FE9C55C3E} = {258A4316-795D-4BB6-9FB9-DF44ACDF9CD7}
+		{41A7641A-D09F-4713-A331-ED8C28D37364} = {D4C77840-0BAF-4522-AB18-0AC748E222BC}
+		{67F8350F-AC93-4162-A130-991AD27E5958} = {4E02574F-87E2-43A8-AA43-1D3820C7B9AC}
+		{C0E527B2-4E65-4203-9ED7-5404FC907C75} = {FF93B642-A9B3-4DFD-A6D7-90FB955F9E2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F53FAB0D-2C94-4E8F-9AAB-F6C0299755A9}
+	EndGlobalSection
+EndGlobal
