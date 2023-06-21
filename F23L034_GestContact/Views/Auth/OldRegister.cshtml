@@ -1,0 +1,41 @@
+﻿@model RegisterForm
+
+<div class="row">
+    <div>
+        @Html.ValidationSummary(true, null, new { @class = "text-danger" })
+    </div>
+    <div class="col-md-6">
+
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.Nom)
+                @Html.TextBoxFor(m => m.Nom, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Nom, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Prenom)
+                @Html.TextBoxFor(m => m.Prenom, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Prenom, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Passwd)
+                @Html.PasswordFor(m => m.Passwd, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Passwd, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Confirm)
+                @Html.PasswordFor(m => m.Confirm, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Confirm, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        }
+    </div>
+</div>

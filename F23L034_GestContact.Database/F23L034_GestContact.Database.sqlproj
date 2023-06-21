@@ -70,5 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="F23L034_GestContact.Database.publish.xml" />
+    <None Include="F23L034_GestContact.Database.publishTOUR.xml" />
   </ItemGroup>
 </Project>
