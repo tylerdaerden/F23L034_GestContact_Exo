@@ -12,7 +12,7 @@ namespace F23L034_GestContact.Controllers
         //CONNECTION_STRING pour VDI
         //const string CONNECTION_STRING = @"Data Source=FORMA-VDI303\TFTIC;Initial Catalog=F23L034_GestContact.Database;Integrated Security=True";
         //CONNECTION_STRING pour ma tour
-        const string CONNECTION_STRING = @"Data Source=FORMA-VDI303\TFTIC;Initial Catalog=F23L034_GestContact.Database;Integrated Security=True";
+        const string CONNECTION_STRING = @"Data Source=TOURPCDANY\DATAVIZ;Initial Catalog=F23L034_GestContact.Database;Integrated Security=True";
 
 
         public IActionResult Index()
